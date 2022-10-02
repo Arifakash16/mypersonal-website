@@ -1,6 +1,11 @@
 body{
     margin: 0%;
     font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+}
+.background{
+    background-image: url("header-bg.png");
+    background-position: left;
 }
 .name-coloring{
     color: hotpink;
@@ -15,18 +20,97 @@ h2{
     font-weight: 700;
     color: white;
     text-decoration: none;
+    border-radius: 5px;
 }
 .half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+   
+}
+.jackbio{
+    padding-top: 100px;
 }
 .half-width img{
-    width: 90%;
+    width: 100%;
 }
 
 section{
     padding-bottom: 150px;
-    height: 500px;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+.biographybackground{
+    background-image: url("biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.tripple-width{
+   width: 25%;
+   float: left;
+   margin-left: 5%;
+   padding-left: 2%;
+
+}
+.tripple-width img{
+    width: 100%;
+}
+.latest-work{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+#latest{
+    padding-top: 100px;
+    background-image: url("latest-work-bg.png");
+    background-position: left;
+}
+
+.footer{
+    background-image: url("footer-bg.png");
+
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+}
+.footer{
+    background-image: url("footer-bg.png");
+    text-align: center;
+    font-weight: 100;
+    color: gray;
+    font-size: 15px;
+}
+#spann{
+    text-align: center;
+    font-weight: 350;
+    color: gray;
+}
+h4{
+    text-align: center;
+    font-weight: 300;
+}
+.client{
+    text-align: center;
+}
+#email{
+    font-size: large;
+}
+#email-bg{
+    background-image: linear-gradient(45deg,hotpink, tomato );
+    color: white;
+    height: 125px;
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 600px;
+    position: relative;
+    left: 360px;
+    right: 400px;
+}
+#leave{
+    font-size: small;
 }
